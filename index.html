@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<script type="text/javascript" src="js/calculator.js"></script>
+  <title>Calculadora</title>
+
+</head>
+
+<img src="img/wolverine.png" class="wolverine">
+<body>
+
+
+<div class="glass" id="calculadora">
+<input type="text" id="solution" placeholder="   Error sexy 404 💀">
+<br>
+<input class="num" type="button" value="7" onclick="addSymbol('7')">
+<input class="num" type="button" value="8" onclick="addSymbol('8')">
+<input class="num" type="button" value="9" onclick="addSymbol('9')">
+<input class="extra" type="button" value="/" onclick="addSymbol('/')">
+<br>
+<input class="num" type="button" value="4" onclick="addSymbol('4')">
+<input class="num" type="button" value="5" onclick="addSymbol('5')">
+<input class="num" type="button" value="6" onclick="addSymbol('6')">
+<input class="extra" type="button" value="x" onclick="addSymbol('*')">
+<br>
+<input class="num" type="button" value="1" onclick="addSymbol('1')">
+<input class="num" type="button" value="2" onclick="addSymbol('2')">
+<input class="num" type="button" value="3" onclick="addSymbol('3')">
+<input class="extra" type="button" value="-" onclick="addSymbol('-')">
+<br>
+<input class="extra" type="button" value="=" onclick="calculate()">
+<input class="num" type="button" value="0" onclick="addSymbol('0')">
+<input class="extra" type="button" value="C" onclick="clearSolution()">
+<input class="extra" type="button" value="+" onclick="addSymbol('+')">
+</div>
+<img src="img/deadpool.png" class="deadpool">
+</body>
+</html>
